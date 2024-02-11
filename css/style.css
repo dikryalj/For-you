@@ -270,5 +270,24 @@ body {
     border: 2px solid #f5f5f5;
 }
 
+/* Style untuk layar seluler */
+@media only screen and (max-width: 767px) {
+    body {
+      background-color: black;
+    }
+    
+    #contentt {
+      display: none;
+    }
+  }
+  
+  /* Style untuk layar desktop */
+  @media only screen and (min-width: 768px) {
+    body {
+    }
+    
+    #contentt {
+    }
+  }
 
 
