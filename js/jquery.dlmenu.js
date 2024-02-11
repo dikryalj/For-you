@@ -1,3 +1,12 @@
+// Periksa lebar viewport
+if (window.innerWidth < 767) {
+    // Jika seluler, sembunyikan konten dan tampilkan pesan
+    document.getElementById("contentt").style.display = "none";
+    document.body.innerHTML = "<h1>Web tidak bisa dibuka di HP</h1>"
+  }
+
+
+
 /**
  * jquery.dlmenu.js v1.0.1
  * http://www.codrops.com
